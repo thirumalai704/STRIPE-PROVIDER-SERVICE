@@ -49,3 +49,14 @@ The architecture focuses on **scalability, modularity, and maintainability**.
 ## 🏗 System Architecture
 
 The project follows a **Microservices Architecture**.
+## ⚙️ Configuration
+
+Before running the application locally, you must configure the **Stripe API Key**.
+
+Add the following properties in your `application.properties` file.
+
+### Stripe Configuration
+
+```properties
+stripe.api.key=your_stripe_secret_key
+
